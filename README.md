@@ -55,41 +55,7 @@ Using Node.js:
 npx serve .
 ```
 
----
 
-## ✦ How to Host on GitHub Pages (For Your Portfolio)
-
-Publishing this project on GitHub Pages takes under 2 minutes:
-
-1. **Initialize Git** (if not already done):
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: initial release of Laocoön - Bronze and Time"
-   ```
-
-2. **Create a GitHub Repository**:
-   - Go to [github.com/new](https://github.com/new)
-   - Name your repository (e.g., `laocoon-bronze-and-time` or `bronze-and-time`)
-   - Keep it Public and click **Create repository**.
-
-3. **Push your code**:
-   ```bash
-   git remote add origin https://github.com/<YOUR-USERNAME>/bronze-and-time.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-4. **Enable GitHub Pages**:
-   - Go to your repository settings on GitHub (`Settings` → `Pages`).
-   - Under **Build and deployment** > **Branch**, select `main` branch and `/ (root)` folder.
-   - Click **Save**.
-   - Your live site will be deployed at:
-     ```
-     https://<YOUR-USERNAME>.github.io/bronze-and-time/
-     ```
-
----
 
 ## ✦ Design & Engineering Details
 
